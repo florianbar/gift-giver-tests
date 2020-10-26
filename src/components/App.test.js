@@ -8,3 +8,4 @@ const app = shallow(<App />);
 it("Renders correctly", () => {
     expect(app).toMatchSnapshot();
 });
+
